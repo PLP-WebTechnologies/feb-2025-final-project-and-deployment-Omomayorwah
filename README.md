@@ -23,3 +23,19 @@ Use at least 5 different HTML elements.
 Ensure semantic correctness.
 
 Good luck and happy coding! 🚀💻
+
+## File Structure (PLP Store)
+PLP Store/
+├── index.html          # Home page
+├── products.html       # Product listings
+├── product-detail.html # Single product page
+├── cart.html          # Shopping cart
+├── checkout.html      # Checkout page
+├── css/
+│   └── style.css      # Main stylesheet
+├── js/
+│   └── script.js      # Main JavaScript file
+└── images/            # All website images
+
+## Deployment Site
+https://omomayorwah.github.io
