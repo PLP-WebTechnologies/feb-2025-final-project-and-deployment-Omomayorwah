@@ -1,4 +1,4 @@
-ecommerce/
+PLP Store/
 ├── index.html          # Home page
 ├── products.html       # Product listings
 ├── product-detail.html # Single product page
