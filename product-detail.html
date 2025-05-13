@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="E-Commerce Website">
+    <title>PLP Store</title>
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.jpg" type="image/x-icon">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Skip to content link for accessibility -->
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <!-- Header with navigation -->
+    <header class="main-header">
+        <div class="container">
+            <div class="logo">
+                <!-- Logo image: E-commerce store logo -->
+                <img src="images/logo.png" alt="PLP Store Logo" width="80" height="80">
+            </div>
+            <nav class="main-nav">
+                <button class="hamburger" aria-label="Menu" aria-expanded="false">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="cart.html">Cart <span class="cart-count">0</span></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main content area -->
+    <main id="main-content">
+        <section class="product-detail">
+            <div class="container">
+                <div class="product-detail-grid">
+                    <!-- Product Gallery -->
+                    <div class="product-gallery">
+                        <div class="product-main-image">
+                            <!-- Main product image: Wireless headphones -->
+                            <img src="images/product-1-large.png" alt="Wireless headphones in black" class="product-main-img">
+                        </div>
+                        <div class="product-thumbnails">
+                            <!-- Thumbnail 1 -->
+                            <a href="images/product-1-large.png" class="product-thumbnail active">
+                                <img src="images/product-1-thumb.png" alt="Wireless headphones front view">
+                            </a>
+                            <!-- Thumbnail 2 -->
+                            <a href="images/product-1-angle.png" class="product-thumbnail">
+                                <img src="images/product-1-angle-thumb.png" alt="Wireless headphones side view">
+                            </a>
+                            <!-- Thumbnail 3 -->
+                            <a href="images/product-1-case.png" class="product-thumbnail">
+                                <img src="images/product-1-case-thumb.png" alt="Wireless headphones with case">
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <!-- Product Info -->
+                    <div class="product-info">
+                        <h1>Wireless Headphones</h1>
+                        <p class="price">$99.99</p>
+                        <p class="description">Premium wireless headphones with noise cancellation and 30-hour battery life.</p>
+                        
+                        <div class="product-options">
+                            <div class="option">
+                                <label for="color">Color:</label>
+                                <select id="color">
+                                    <option>Black</option>
+                                    <option>White</option>
+                                    <option>Blue</option>
+                                </select>
+                            </div>
+                            
+                            <div class="option">
+                                <label for="quantity">Quantity:</label>
+                                <input type="number" id="quantity" min="1" value="1">
+                            </div>
+                        </div>
+                        
+                        <button class="btn add-to-cart" data-id="1">Add to Cart</button>
+                        
+                        <div class="product-meta">
+                            <p><strong>Category:</strong> Electronics</p>
+                            <p><strong>SKU:</strong> HD-WL-001</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Product Tabs -->
+                <div class="product-tabs">
+                    <div class="tab-header">
+                        <button class="tab-link active" data-tab="description">Description</button>
+                        <button class="tab-link" data-tab="specs">Specifications</button>
+                        <button class="tab-link" data-tab="reviews">Reviews</button>
+                    </div>
+                    
+                    <div class="tab-content active" id="description">
+                        <h3>Product Description</h3>
+                        <p>These premium wireless headphones deliver exceptional sound quality with active noise cancellation technology. <br>Enjoy up to 30 hours of battery life with quick charging capability.</p>
+                    </div>
+                    
+                    <div class="tab-content" id="specs">
+                        <h3>Specifications</h3>
+                        <ul>
+                            <li>Driver size: 40mm</li>
+                            <li>Frequency response: 20Hz-20kHz</li>
+                            <li>Bluetooth version: 5.0</li>
+                            <li>Battery life: 30 hours</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="tab-content" id="reviews">
+                        <h3>Customer Reviews</h3>
+                        <div class="review">
+                            <p class="review-author">John D.</p>
+                            <div class="review-rating">★★★★★</div>
+                            <p class="review-text">Amazing sound quality and very comfortable!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <h3>About PLP Store</h3>
+                    <p>Your one-stop shop for quality products <br> at affordable prices.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="cart.html">Cart</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact Us</h3>
+                    <address>
+                        <p><i class="fas fa-map-marker-alt"></i> 123 PLP Street, Kenya</p>
+                        <p><i class="fas fa-phone"></i> (123) 456-7890</p>
+                        <p><i class="fas fa-envelope"></i> info@plpstore.com</p>
+                    </address>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 PLP Store. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+</html>

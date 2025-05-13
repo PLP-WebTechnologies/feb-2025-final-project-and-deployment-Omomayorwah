@@ -1,0 +1,11 @@
+ecommerce/
+├── index.html          # Home page
+├── products.html       # Product listings
+├── product-detail.html # Single product page
+├── cart.html          # Shopping cart
+├── checkout.html      # Checkout page
+├── css/
+│   └── style.css      # Main stylesheet
+├── js/
+│   └── script.js      # Main JavaScript file
+└── images/            # All website images
